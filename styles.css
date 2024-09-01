@@ -1,0 +1,129 @@
+body {
+    background-color: #1f2937;
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #555;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+}
+
+.search-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.right-nav {
+    display: flex;
+    margin-right: 30px;
+}
+
+.right-nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.right-nav a:hover {
+    text-decoration: underline;
+}
+
+.Following-images {
+    margin-left: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.Following-images div {
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    border: 2px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1f2937;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-form label,
+.login-form input {
+    display: block;
+    margin: 10px auto;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(69, 69, 239);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.1s ease , trasform 0.1s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  button:active {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: translateY(2px);
+  }
+  
+.body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100vh;
+}
